@@ -1,0 +1,233 @@
+<html lang="es">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <title>
+   Plantilla Excel - Compra Ahora
+  </title>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+      font-family: 'Montserrat', sans-serif;
+    }
+  </style>
+ </head>
+ <body class="bg-gray-50 min-h-screen flex flex-col">
+  <header class="bg-white shadow-md">
+   <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+    <div class="text-2xl font-bold text-indigo-600">
+     <i class="fas fa-file-excel">
+     </i>
+     Plantilla Excel Pro
+    </div>
+    <nav class="space-x-6 hidden md:flex text-gray-700 font-semibold">
+     <a class="hover:text-indigo-600 transition" href="#caracteristicas">
+      Características
+     </a>
+     <a class="hover:text-indigo-600 transition" href="#beneficios">
+      Beneficios
+     </a>
+     <a class="hover:text-indigo-600 transition" href="#testimonios">
+      Testimonios
+     </a>
+     <a class="hover:text-indigo-600 transition" href="#compra">
+      Compra
+     </a>
+    </nav>
+    <button class="md:hidden text-gray-700 focus:outline-none" id="menu-btn">
+     <i class="fas fa-bars fa-lg">
+     </i>
+    </button>
+   </div>
+   <div class="hidden md:hidden bg-white px-6 pb-4 space-y-3" id="mobile-menu">
+    <a class="block text-gray-700 font-semibold hover:text-indigo-600 transition" href="#caracteristicas">
+     Características
+    </a>
+    <a class="block text-gray-700 font-semibold hover:text-indigo-600 transition" href="#beneficios">
+     Beneficios
+    </a>
+    <a class="block text-gray-700 font-semibold hover:text-indigo-600 transition" href="#testimonios">
+     Testimonios
+    </a>
+    <a class="block text-gray-700 font-semibold hover:text-indigo-600 transition" href="#compra">
+     Compra
+    </a>
+   </div>
+  </header>
+  <main class="flex-grow">
+   <section class="bg-indigo-600 text-white py-20 px-6 text-center">
+    <h1 class="text-4xl md:text-5xl font-extrabold mb-4 leading-tight">
+     La Mejor Plantilla de Excel para
+     <br/>
+     Gestionar tus Finanzas
+    </h1>
+    <p class="max-w-3xl mx-auto text-lg md:text-xl mb-8">
+     Organiza tus ingresos, gastos y ahorros con facilidad y precisión. ¡Optimiza tu tiempo y toma mejores decisiones financieras!
+    </p>
+    <a class="inline-block bg-yellow-400 hover:bg-yellow-500 text-indigo-900 font-bold py-4 px-10 rounded-lg shadow-lg transition" href="https://pay.hotmart.com/K99283305N" id="compra" rel="noopener noreferrer" target="_blank">
+     Comprar Ahora
+    </a>
+   </section>
+   <section class="container mx-auto px-6 py-16" id="caracteristicas">
+    <h2 class="text-3xl font-bold text-indigo-800 mb-10 text-center">
+     Características Principales
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+     <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+      <img alt="Pantalla de dashboard financiero con gráficos y tablas en Excel" class="mb-6 rounded-md" height="150" src="https://storage.googleapis.com/a1aa/image/4e3eb240-4324-42e5-4ee2-ce1c9ecc2cfc.jpg" width="150"/>
+      <h3 class="text-xl font-semibold mb-2">
+       Dashboard Interactivo
+      </h3>
+      <p class="text-gray-600">
+       Visualiza tus finanzas con gráficos dinámicos y tablas fáciles de entender.
+      </p>
+     </div>
+     <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+      <img alt="Hoja de Excel mostrando fórmulas automáticas para cálculos financieros" class="mb-6 rounded-md" height="150" src="https://storage.googleapis.com/a1aa/image/9089ae6e-3db7-46cd-b955-94a8fcaed587.jpg" width="150"/>
+      <h3 class="text-xl font-semibold mb-2">
+       Automatización de Cálculos
+      </h3>
+      <p class="text-gray-600">
+       Fórmulas predefinidas que calculan automáticamente ingresos, gastos y balances.
+      </p>
+     </div>
+     <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
+      <img alt="Plantilla de Excel personalizable con colores y formatos ajustables" class="mb-6 rounded-md" height="150" src="https://storage.googleapis.com/a1aa/image/01883db9-56cb-4494-12a5-94ccc31c5438.jpg" width="150"/>
+      <h3 class="text-xl font-semibold mb-2">
+       Fácil Personalización
+      </h3>
+      <p class="text-gray-600">
+       Ajusta la plantilla a tus necesidades con formatos y colores personalizables.
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="bg-indigo-50 py-16 px-6" id="beneficios">
+    <div class="container mx-auto max-w-5xl">
+     <h2 class="text-3xl font-bold text-indigo-800 mb-10 text-center">
+      Beneficios de Usar Nuestra Plantilla
+     </h2>
+     <ul class="space-y-6 text-gray-700 text-lg max-w-3xl mx-auto">
+      <li class="flex items-start">
+       <i class="fas fa-check-circle text-indigo-600 text-2xl mt-1 mr-4">
+       </i>
+       <span>
+        Ahorrar tiempo en la gestión financiera diaria.
+       </span>
+      </li>
+      <li class="flex items-start">
+       <i class="fas fa-check-circle text-indigo-600 text-2xl mt-1 mr-4">
+       </i>
+       <span>
+        Tomar decisiones informadas con datos claros y precisos.
+       </span>
+      </li>
+      <li class="flex items-start">
+       <i class="fas fa-check-circle text-indigo-600 text-2xl mt-1 mr-4">
+       </i>
+       <span>
+        Mejorar el control de gastos y aumentar tus ahorros.
+       </span>
+      </li>
+      <li class="flex items-start">
+       <i class="fas fa-check-circle text-indigo-600 text-2xl mt-1 mr-4">
+       </i>
+       <span>
+        Fácil de usar, incluso si no tienes experiencia en Excel.
+       </span>
+      </li>
+      <li class="flex items-start">
+       <i class="fas fa-check-circle text-indigo-600 text-2xl mt-1 mr-4">
+       </i>
+       <span>
+        Acceso inmediato tras la compra, sin esperas.
+       </span>
+      </li>
+     </ul>
+    </div>
+   </section>
+   <section class="container mx-auto px-6 py-16" id="testimonios">
+    <h2 class="text-3xl font-bold text-indigo-800 mb-10 text-center">
+     Testimonios de Clientes
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+     <div class="bg-white rounded-lg shadow-md p-6 flex flex-col">
+      <div class="flex items-center mb-4">
+       <img alt="Retrato de mujer joven sonriente con cabello castaño y fondo neutro" class="rounded-full mr-4" height="64" src="https://storage.googleapis.com/a1aa/image/f6e01275-a174-47ce-854e-6931ddcc3fdf.jpg" width="64"/>
+       <div>
+        <p class="font-semibold text-indigo-700">
+         María López
+        </p>
+        <p class="text-sm text-gray-500">
+         Emprendedora
+        </p>
+       </div>
+      </div>
+      <p class="text-gray-700 flex-grow">
+       "Esta plantilla me ha ayudado a organizar mis finanzas personales y de mi negocio. Fácil de usar y muy completa."
+      </p>
+     </div>
+     <div class="bg-white rounded-lg shadow-md p-6 flex flex-col">
+      <div class="flex items-center mb-4">
+       <img alt="Retrato de hombre adulto con barba corta y gafas, fondo claro" class="rounded-full mr-4" height="64" src="https://storage.googleapis.com/a1aa/image/ba7d1f5c-07b5-4a69-ef33-65f274b712d0.jpg" width="64"/>
+       <div>
+        <p class="font-semibold text-indigo-700">
+         Carlos Martínez
+        </p>
+        <p class="text-sm text-gray-500">
+         Contador
+        </p>
+       </div>
+      </div>
+      <p class="text-gray-700 flex-grow">
+       "La automatización de cálculos me ahorra mucho tiempo. La recomiendo para cualquier persona que quiera mejorar su control financiero."
+      </p>
+     </div>
+     <div class="bg-white rounded-lg shadow-md p-6 flex flex-col">
+      <div class="flex items-center mb-4">
+       <img alt="Retrato de mujer adulta con cabello corto y sonrisa amable, fondo neutro" class="rounded-full mr-4" height="64" src="https://storage.googleapis.com/a1aa/image/b31dd9a4-8ebc-42f8-cd44-3aba31b32bd2.jpg" width="64"/>
+       <div>
+        <p class="font-semibold text-indigo-700">
+         Ana Gómez
+        </p>
+        <p class="text-sm text-gray-500">
+         Profesora
+        </p>
+       </div>
+      </div>
+      <p class="text-gray-700 flex-grow">
+       "Me encanta que puedo personalizar la plantilla según mis necesidades. Es una herramienta muy útil y práctica."
+      </p>
+     </div>
+    </div>
+   </section>
+   <section class="bg-indigo-600 text-white py-20 px-6 text-center" id="compra">
+    <h2 class="text-4xl font-extrabold mb-6">
+     ¡Compra Ahora y Transforma tus Finanzas!
+    </h2>
+    <p class="max-w-3xl mx-auto text-lg mb-10">
+     Accede a la plantilla inmediatamente después de la compra y comienza a organizar tu dinero de forma eficiente.
+    </p>
+    <a class="inline-block bg-yellow-400 hover:bg-yellow-500 text-indigo-900 font-bold py-5 px-12 rounded-lg shadow-lg transition" href="https://pay.hotmart.com/K99283305N" rel="noopener noreferrer" target="_blank">
+     Comprar Ahora
+    </a>
+   </section>
+  </main>
+  <footer class="bg-white border-t border-gray-200 py-6">
+   <div class="container mx-auto px-6 text-center text-gray-600 text-sm">
+    © 2024 Plantilla Excel Pro. Todos los derechos reservados.
+   </div>
+  </footer>
+  <script>
+   const menuBtn = document.getElementById('menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    menuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+  </script>
+ </body>
+</html>
