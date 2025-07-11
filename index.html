@@ -1,6 +1,8 @@
 <html lang="es">
- <head>
+
+  <head>
   <!-- Meta Pixel Code -->
+
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -17,6 +19,7 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=527332276892003&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
+
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <title>
@@ -36,7 +39,7 @@ src="https://www.facebook.com/tr?id=527332276892003&ev=PageView&noscript=1"
   <header class="bg-white shadow-md">
    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
     <div class="text-2xl font-bold text-indigo-600">
-     <i class="fas fa-file-excel">
+    <i class="fas fa-file-excel">
      </i>
      Plantilla Excel Pro
     </div>
@@ -84,9 +87,9 @@ src="https://www.facebook.com/tr?id=527332276892003&ev=PageView&noscript=1"
     <p class="max-w-3xl mx-auto text-lg md:text-xl mb-8">
      Organiza tus ingresos, gastos y ahorros con facilidad y precisión. ¡Optimiza tu tiempo y toma mejores decisiones financieras!
     </p>
-    <a class="inline-block bg-yellow-400 hover:bg-yellow-500 text-indigo-900 font-bold py-4 px-10 rounded-lg shadow-lg transition" href="https://pay.hotmart.com/C100645973P" id="compra" rel="noopener noreferrer" target="_blank">
-     Comprar Ahora
-    </a>
+    <a class="inline-block bg-yellow-400 hover:bg-yellow-500 text-indigo-900 font-bold py-4 px-10 rounded-lg shadow-lg transition" href="https://pay.hotmart.com/K99283305N" id="compra" rel="noopener noreferrer" target="_blank"> 
+     Comprar Ahora 4.99$
+    </a>
    </section>
    <section class="container mx-auto px-6 py-16" id="caracteristicas">
     <h2 class="text-3xl font-bold text-indigo-800 mb-10 text-center">
@@ -94,7 +97,7 @@ src="https://www.facebook.com/tr?id=527332276892003&ev=PageView&noscript=1"
     </h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
      <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
-      <img alt="Pantalla de dashboard financiero con gráficos y tablas en Excel" class="mb-6 rounded-md" height="150" src="dash1.jpg" width="150"/>
+      <img alt="Pantalla de dashboard financiero con gráficos y tablas en Excel" class="mb-6 rounded-md" height="150" src="mockup2.jpg" width="150"/>
       <h3 class="text-xl font-semibold mb-2">
        Dashboard Interactivo
       </h3>
@@ -103,7 +106,7 @@ src="https://www.facebook.com/tr?id=527332276892003&ev=PageView&noscript=1"
       </p>
      </div>
      <div class="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center">
-      <img alt="Hoja de Excel mostrando fórmulas automáticas para cálculos financieros" class="mb-6 rounded-md" height="150" src="dash2.jpg" width="150"/>
+      <img alt="Hoja de Excel mostrando fórmulas automáticas para cálculos financieros" class="mb-6 rounded-md" height="150" src="mockup3.jpg" width="150"/>
       <h3 class="text-xl font-semibold mb-2">
        Automatización de Cálculos
       </h3>
@@ -166,6 +169,27 @@ src="https://www.facebook.com/tr?id=527332276892003&ev=PageView&noscript=1"
      </ul>
     </div>
    </section>
+
+   <section class="bg-yellow-50 py-16 px-6 text-center" id="cupon">
+        <div class="container mx-auto max-w-3xl">
+            <h2 class="text-3xl font-bold text-yellow-800 mb-6">¡Oferta Especial! Obtén un Descuento</h2>
+            <p class="text-lg text-gray-700 mb-8">Haz clic en el botón para revelar tu código de cupón y aplícalo en Hotmart.</p>
+            <button id="revealCouponBtn" class="bg-yellow-500 hover:bg-yellow-600 text-white font-bold py-4 px-8 rounded-lg shadow-md transition duration-300 ease-in-out">
+                Revelar Cupón
+            </button>
+            <div id="couponDisplay" class="hidden mt-8 bg-white p-6 rounded-lg shadow-lg border-2 border-yellow-400">
+                <p class="text-xl font-semibold text-gray-800 mb-4">Tu código de descuento es:</p>
+                <div class="flex items-center justify-center space-x-4">
+                    <span id="couponCode" class="text-3xl font-extrabold text-indigo-600 bg-indigo-50 px-6 py-3 rounded-md border border-indigo-200 select-all">EXCELPRO20</span>
+                    <button id="copyCouponBtn" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-md shadow-sm transition duration-300 ease-in-out">
+                        Copiar
+                    </button>
+                </div>
+                <p id="copyMessage" class="text-sm text-green-600 mt-4 hidden">¡Copiado al portapapeles!</p>
+            </div>
+        </div>
+    </section>
+
    <section class="container mx-auto px-6 py-16" id="testimonios">
     <h2 class="text-3xl font-bold text-indigo-800 mb-10 text-center">
      Testimonios de Clientes
@@ -173,7 +197,7 @@ src="https://www.facebook.com/tr?id=527332276892003&ev=PageView&noscript=1"
     <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
      <div class="bg-white rounded-lg shadow-md p-6 flex flex-col">
       <div class="flex items-center mb-4">
-       <img alt="Retrato de mujer joven sonriente con cabello castaño y fondo neutro" class="rounded-full mr-4" height="64" src="https://storage.googleapis.com/a1aa/image/f6e01275-a174-47ce-854e-6931ddcc3fdf.jpg" width="64"/>
+       <img alt="Retrato de mujer joven sonriente con cabello castaño y fondo neutro" class="rounded-full mr-4" height="64" src="testi1.jpg" width="64"/>
        <div>
         <p class="font-semibold text-indigo-700">
          María López
@@ -189,10 +213,10 @@ src="https://www.facebook.com/tr?id=527332276892003&ev=PageView&noscript=1"
      </div>
      <div class="bg-white rounded-lg shadow-md p-6 flex flex-col">
       <div class="flex items-center mb-4">
-       <img alt="Retrato de hombre adulto con barba corta y gafas, fondo claro" class="rounded-full mr-4" height="64" src="https://storage.googleapis.com/a1aa/image/ba7d1f5c-07b5-4a69-ef33-65f274b712d0.jpg" width="64"/>
+       <img alt="Retrato de hombre adulto con barba corta y gafas, fondo claro" class="rounded-full mr-4" height="64" src="testi2.jpg" width="64"/>
        <div>
         <p class="font-semibold text-indigo-700">
-         Carlos Martínez
+         Carla Martínez
         </p>
         <p class="text-sm text-gray-500">
          Contador
@@ -205,7 +229,7 @@ src="https://www.facebook.com/tr?id=527332276892003&ev=PageView&noscript=1"
      </div>
      <div class="bg-white rounded-lg shadow-md p-6 flex flex-col">
       <div class="flex items-center mb-4">
-       <img alt="Retrato de mujer adulta con cabello corto y sonrisa amable, fondo neutro" class="rounded-full mr-4" height="64" src="https://storage.googleapis.com/a1aa/image/b31dd9a4-8ebc-42f8-cd44-3aba31b32bd2.jpg" width="64"/>
+       <img alt="Retrato de mujer adulta con cabello corto y sonrisa amable, fondo neutro" class="rounded-full mr-4" height="64" src="testi3.jpg" width="64"/>
        <div>
         <p class="font-semibold text-indigo-700">
          Ana Gómez
@@ -228,23 +252,55 @@ src="https://www.facebook.com/tr?id=527332276892003&ev=PageView&noscript=1"
     <p class="max-w-3xl mx-auto text-lg mb-10">
      Accede a la plantilla inmediatamente después de la compra y comienza a organizar tu dinero de forma eficiente.
     </p>
-    <a class="inline-block bg-yellow-400 hover:bg-yellow-500 text-indigo-900 font-bold py-5 px-12 rounded-lg shadow-lg transition" href="https://pay.hotmart.com/C100645973P" rel="noopener noreferrer" target="_blank">
-     Comprar Ahora
+    <a class="inline-block bg-yellow-400 hover:bg-yellow-500 text-indigo-900 font-bold py-5 px-12 rounded-lg shadow-lg transition" href="https://pay.hotmart.com/K99283305N" rel="noopener noreferrer" target="_blank">
+     Comprar Ahora 4.99$
     </a>
    </section>
   </main>
   <footer class="bg-white border-t border-gray-200 py-6">
    <div class="container mx-auto px-6 text-center text-gray-600 text-sm">
-    © 2024 Plantilla Excel Pro. Todos los derechos reservados.
+    © 2025 Plantilla Excel Pro. Todos los derechos reservados.
    </div>
   </footer>
-  <script>
-   const menuBtn = document.getElementById('menu-btn');
+ <script>
+    const menuBtn = document.getElementById('menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
+    const revealCouponBtn = document.getElementById('revealCouponBtn');
+    const couponDisplay = document.getElementById('couponDisplay');
+    const couponCode = document.getElementById('couponCode');
+    const copyCouponBtn = document.getElementById('copyCouponBtn');
+    const copyMessage = document.getElementById('copyMessage');
 
     menuBtn.addEventListener('click', () => {
       mobileMenu.classList.toggle('hidden');
     });
+
+    // Lógica para el cupón
+    revealCouponBtn.addEventListener('click', () => {
+        couponDisplay.classList.remove('hidden'); // Muestra el div del cupón
+        revealCouponBtn.classList.add('hidden'); // Oculta el botón "Revelar Cupón"
+    });
+
+    copyCouponBtn.addEventListener('click', () => {
+        const textToCopy = couponCode.textContent;
+        // Usa document.execCommand('copy') para compatibilidad en iframes
+        const textArea = document.createElement("textarea");
+        textArea.value = textToCopy;
+        document.body.appendChild(textArea);
+        textArea.select();
+        try {
+            document.execCommand('copy');
+            copyMessage.classList.remove('hidden'); // Muestra el mensaje de copiado
+            setTimeout(() => {
+                copyMessage.classList.add('hidden'); // Oculta el mensaje después de un tiempo
+            }, 2000);
+        } catch (err) {
+            console.error('Error al copiar el texto: ', err);
+            // Podrías mostrar un mensaje de error si la copia falla
+        }
+        document.body.removeChild(textArea);
+    });
   </script>
- </body>
+  </body>
 </html>
+
